@@ -10,3 +10,8 @@ Node js & npm
 From the within the Nightwatch-Playground directory
 
 `npm install`
+
+## Running tests
+To run all tests
+
+`node_modules/.bin/nightwatch`
