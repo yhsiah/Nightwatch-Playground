@@ -9,4 +9,4 @@ Node js & npm
 ## Installation
 From the within the Nightwatch-Playground directory
 
-```npm install```
+`npm install`
