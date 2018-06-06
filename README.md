@@ -1,10 +1,12 @@
 # Nightwatch-Playground
 Just playing with Nightwatch js for Automated UI testing
 
-## Reuirements
+## Requirements
 JRE
+
 Node js & npm
 
 ## Installation
-From the within the directory
--- npm install
+From the within the Nightwatch-Playground directory
+
+```npm install```
