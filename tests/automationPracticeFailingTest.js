@@ -3,13 +3,16 @@ var config = require('../nightwatch.conf.js');
 // Note that this test is designed to fail
 
 module.exports = {
-  disabled: true,
+  // disabled: true,
 
   'Assert Automation Practice Title (Should Fail)': function(browser) {
-    browser
-      .url('https://www.ultimateqa.com/automation/')
+    var automationPracticePage = browser.page.automationPractice();
+
+    automationPracticePage
+      .navigate()
       .waitForElementVisible('body')
-      .assert.title('Automation Practice - Failing Test')
-      .end();
+      .assert.title('Automation Practice - Failing Test');
+
+    browser.end();
   }
 };
