@@ -1,17 +1,23 @@
 # Nightwatch-Playground
-Just playing with Nightwatch js for Automated UI testing
+My playground for UI test automation using nightwatch.
+
+Using web pages from the `Ultimate QA` resource to interact with and test.
+
+See https://www.ultimateqa.com/automation/
 
 ## Requirements
 JRE
 
 Node js & npm
 
+Google Chrome
+
 ## Installation
 From the within the Nightwatch-Playground directory
 
-`npm install`
+  npm install
 
 ## Running tests
 To run all tests
 
-`node_modules/.bin/nightwatch`
+  node_modules/.bin/nightwatch

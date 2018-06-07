@@ -20,7 +20,7 @@ module.exports = {
     var contents = automationPracticePage.section.contents;
 
     automationPracticePage.expect.section('@contents').to.be.visible;
-    contents.expect.element('@bigPage').text.to.equal('Big page with many elements');
+    contents.expect.element('@complicatedPage').text.to.equal('Big page with many elements');
     contents.expect.element('@landingPage').text.to.equal('Fake Landing Page');
     contents.expect.element('@pricingPage').text.to.equal('Fake Pricing Page');
     contents.expect.element('@formsPage').text.to.equal('Fill out forms');

@@ -9,7 +9,7 @@ module.exports = {
     contents: {
       selector: '.et_pb_text_inner',
       elements: {
-        bigPage: {selector: 'ul > li:nth-child(1) > a'},
+        complicatedPage: {selector: 'ul > li:nth-child(1) > a'},
         landingPage: {selector: 'ul > li:nth-child(2) > a'},
         pricingPage: {selector: 'ul > li:nth-child(3) > a'},
         formsPage: {selector: 'ul > li:nth-child(4) > a'},
