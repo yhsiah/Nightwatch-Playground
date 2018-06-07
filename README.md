@@ -15,9 +15,9 @@ Google Chrome
 ## Installation
 From the within the Nightwatch-Playground directory
 
-  npm install
+    npm install
 
 ## Running tests
 To run all tests
 
-  node_modules/.bin/nightwatch
+    node_modules/.bin/nightwatch
