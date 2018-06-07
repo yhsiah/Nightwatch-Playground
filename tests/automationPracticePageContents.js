@@ -24,9 +24,9 @@ module.exports = {
     contents.expect.element('@landingPage').text.to.equal('Fake Landing Page');
     contents.expect.element('@pricingPage').text.to.equal('Fake Pricing Page');
     contents.expect.element('@formsPage').text.to.equal('Fill out forms');
-    contents.expect.element('@changingPage').text.to.equal('Learn how to automate an application that evolves over time');
     contents.expect.element('@loginPage').text.to.equal('Login automation');
     contents.expect.element('@simplePage').text.to.equal('Interactions with simple elements');
+    contents.expect.element('@changingPage').text.to.equal('Learn how to automate an application that evolves over time');
     browser.end();
   }
 };
